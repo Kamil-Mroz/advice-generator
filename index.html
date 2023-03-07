@@ -28,7 +28,37 @@
     <title>Frontend Mentor | Advice generator app</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="advice-container">
+        <p class="advice-id">advice <span id="id"></span></p>
+
+        <q
+          id="quote"
+          class="advice-quote"
+        >
+        </q>
+
+        <picture>
+          <source
+            srcset="./images/pattern-divider-desktop.svg"
+            media="(min-width:1024px)"
+          />
+          <img
+            src="./images/pattern-divider-mobile.svg"
+            alt=""
+          />
+        </picture>
+        <button
+          id="btn"
+          class="advice-btn"
+        >
+          <img
+            src="./images/icon-dice.svg"
+            alt="dice"
+          />
+        </button>
+      </div>
+    </div>
     <div class="attribution">
       Challenge by
       <a
