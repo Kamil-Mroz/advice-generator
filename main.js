@@ -9,7 +9,6 @@ async function setAdvice() {
   const data = await fetchAdvice()
   adviceIdEl.textContent = data.id
   adviceQuoteEl.textContent = data.advice
-  console.log('ok')
 }
 
 async function fetchAdvice() {
